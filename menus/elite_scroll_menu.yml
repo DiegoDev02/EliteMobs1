@@ -1,0 +1,52 @@
+isEnabled: true
+# Sets the display name of the menu
+menuName: '&6Menú de Pergaminos Élite'
+# Sets the item slot number of the information button in the chest menu.
+infoSlot: 4
+infoButton:
+  material: PLAYER_HEAD
+  name: '§2Información de Pergaminos Élite:'
+  lore:
+  - §2¡Este menú convierte ítems no élite en ítems élite!
+  - §2Los ítems élite tienen DPS élite o defensa élite que se aplica
+  - §2a mobs élite.
+  - §2Para convertir un ítem no élite en un ítem élite, coloca
+  - §2tu ítem no élite abajo, junto con un Pergamino Élite.
+# Sets the item slot number of the cancel button in the chest menu.
+cancelSlot: 27
+cancelButton:
+  material: BARRIER
+  name: §4Cancelar
+  lore:
+  - §c¡Cancelar!
+  customModelID: 31173
+# Sets the item slot number of the confirm button in the chest menu.
+confirmSlot: 35
+confirmButton:
+  material: EMERALD
+  name: §2¡Aplicar!
+# Sets the item slot number of the non-elite item in the chest menu.
+itemSlot: 29
+# Sets the item slot number of the non-elite item info button in the chest menu.
+itemInfoSlot: 20
+itemInfoButton:
+  material: GREEN_BANNER
+  name: §2Ranura de Entrada para Ítem No Élite
+  lore:
+  - §a¡Coloca tu ítem no élite aquí!
+  customModelID: 31173
+# Sets the item slot number of the elite scroll item info button in the chest menu.
+eliteScrollItemInfoSlot: 22
+eliteScrollItemInfoButton:
+  material: GREEN_BANNER
+  name: §2Ranura de Entrada para Pergamino Élite
+  lore:
+  - §a¡Coloca tu pergamino élite aquí!
+  customModelID: 31173
+# Sets the item slot number of elite scroll in the chest menu.
+eliteScrollItemSlot: 31
+outputInfoButton:
+  material: RED_BANNER
+  name: §2Resultado
+outputInfoSlot: 24
+outputSlot: 33

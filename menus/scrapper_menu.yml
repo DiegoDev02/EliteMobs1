@@ -1,0 +1,51 @@
+isEnabled: true
+shopName: '[EM] Desguazador'
+infoButton:
+  material: PLAYER_HEAD
+  name: §4§lEliteMobs §cpor §4§lFroxy
+  lore:
+  - §8¡Apoya los plugins que disfrutas!
+  - §4¡Advertencia!
+  - §c¡Los ítems desguazados aquí se pierden!
+  - §cHay un $chance% de probabilidad de obtener
+  - §cchatarra al desguazar ítems.
+  - §a¡Usa la chatarra en el fundidor,
+  - §ael reparador y el refinador!
+infoButtonSlot: 4
+scrapSlots:
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 34
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+cancelButton:
+  material: BARRIER
+  name: §4Cancelar
+  lore:
+  - §c¡Cancelar el desguace!
+  customModelID: 31173
+cancelButtonSlot: 27
+confirmButton:
+  material: EMERALD
+  name: §2Confirmar Desguace
+  lore:
+  - §a¡Desguazar ítems!
+  - §a¡$chance% de probabilidad de éxito!
+confirmScrapSlot: 35
+scrapChance: 0.75

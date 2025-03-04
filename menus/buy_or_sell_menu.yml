@@ -1,0 +1,24 @@
+isEnabled: true
+Shop name: '[EM] Comprar o Vender'
+Information button:
+  material: PLAYER_HEAD
+  name: §4§lEliteMobs §cpor §4§lFroxy
+  lore:
+  - §8¡Apoya a BananoLand!
+  - §a¡Haz clic en la esmeralda para comprar ítems!
+  - §c¡Haz clic en el redstone para vender ítems!
+Information button slot: 4
+Buy procedurally generated items:
+  material: EMERALD
+  name: Comprar items
+  customModelID: 31173
+Buy custom items:
+  material: EMERALD
+  name: Comprar items personalizados
+  customModelID: 31173
+Sell items:
+  material: REDSTONE
+  name: Vender items
+  customModelID: 31173
+Buy slot: 11
+Sell slot: 15

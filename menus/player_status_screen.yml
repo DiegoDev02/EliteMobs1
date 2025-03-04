@@ -1,0 +1,318 @@
+isEnabled: true
+doIndexPage: true
+doStatsPage: true
+doGearPage: true
+doTeleportsPage: true
+doCommandsPage: true
+doQuestTrackingPage: true
+doBossTrackingPage: true
+indexTexts0: '&0&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+indexHovers0: ''
+indexCommands0: ''
+indexTexts1: '&5&l/ag &7- &6Centro de EliteMobs'
+indexHovers1: |-
+  HAZ CLIC PARA USAR
+  El lugar donde puedes encontrar
+  NPCs que dan misiones, compran y
+  venden ítems, dan consejos y más.
+indexCommands1: /ag
+indexTexts2: '&0&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+indexHovers2: ''
+indexCommands2: ''
+indexTexts3: ''
+indexHovers3: ''
+indexCommands3: ''
+indexTexts4: '&6&lÍndice'
+indexHovers4: ''
+indexCommands4: ''
+indexTexts5: ''
+indexHovers5: ''
+indexCommands5: ''
+indexTexts6: '&bp. $statsPage &8- &6Estadísticas'
+indexHovers6: ¡Haz clic para ir!
+indexCommands6: $statsPage
+indexTexts7: '&bp. $gearPage &8- &6Equipo'
+indexHovers7: ¡Haz clic para ir!
+indexCommands7: $gearPage
+indexTexts8: '&bp. $teleportsPage &8- &6Teletransportes'
+indexHovers8: ¡Haz clic para ir!
+indexCommands8: $teleportsPage
+indexTexts9: '&bp. $commandsPage &8- &6Comandos'
+indexHovers9: ¡Haz clic para ir!
+indexCommands9: $commandsPage
+indexTexts10: '&bp. $questsPage &8- &6Seguimiento de Misiones'
+indexHovers10: ¡Haz clic para ir!
+indexCommands10: $questsPage
+indexTexts11: '&bp. $bossTrackingPage &8- &6Seguimiento de Jefes'
+indexHovers11: ¡Haz clic para ir!
+indexCommands11: $bossTrackingPage
+indexTexts12: ''
+indexHovers12: ''
+indexCommands12: ''
+statsText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+statsHover0: ''
+statsCommand0: ''
+statsText1: '&5&lEstadísticas del Jugador:'
+statsHover1: ''
+statsCommand1: ''
+statsText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+statsHover2: ''
+statsCommand2: ''
+statsText3: ''
+statsHover3: ''
+statsCommand3: ''
+statsText4: '&2Dinero: &a$money'
+statsHover4: |-
+  Mata Mobs Élite para obtener moneda o
+  vende sus botines en /em shop o
+  ¡completa misiones!
+statsCommand4: ''
+statsText5: ''
+statsHover5: ''
+statsCommand5: ''
+statsText6: '&6Rango de Gremio: &3$guildtier'
+statsHover6: |-
+  Rango de Prestigio y Gremio:
+  El Rango de Gremio determina la calidad de tu botín, establece tu bono del Rango de Prestigio, entre otras cosas. ¡El Rango de Prestigio desbloquea recompensas muy poderosas, como más vida máxima, probabilidad de esquivar/crítico, mayores recompensas de moneda y más! Puedes desbloquear Rangos de Gremio y Prestigio en /ag.
+  ⚜ = rango de prestigio, ✧ = rango de gremio.
+statsCommand6: ''
+statsText7: '&4Muertes Élite: &c$kills'
+statsHover7: Cantidad de Mobs Élite matados.
+statsCommand7: ''
+statsText8: '&4Nivel Máx. Matado: &c$highestkill'
+statsHover8: |-
+  Nivel del Mob Élite más alto matado.
+  Los niveles de los Mobs Élite se basan en el nivel
+  de tu equipo. ¡Equipos de mayor nivel generan
+  Mobs Élite de mayor nivel!
+  Nota: ¡solo se cuentan las muertes no explotadas!
+statsCommand8: ''
+statsText9: '&4Muertes por Élite: &c$deaths'
+statsHover9: Veces que moriste por Mobs Élite.
+statsCommand9: ''
+statsText10: '&5Misiones Completadas: &d$quests'
+statsHover10: |-
+  Cantidad de misiones de EliteMobs completadas.
+  ¡Puedes aceptar misiones hablando con NPCs!
+statsCommand10: ''
+statsText11: ''
+statsHover11: ''
+statsCommand11: ''
+statsText12: '&bPuntuación: &3$score'
+statsHover12: |-
+  Tu puntuación de EliteMobs. Aumenta
+  cuando matas un Mob Élite,
+  y disminuye cuando mueres
+  por un élite. Los élites de mayor nivel
+  dan más puntuación.
+statsCommand12: ''
+gearText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+gearHover0: ''
+gearCommand0: ''
+gearText1: '&7&lArmadura y Armas:'
+gearHover1: ''
+gearCommand1: ''
+gearText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+gearHover2: ''
+gearCommand2: ''
+gearText3: '&8&lNiveles de Equipo:'
+gearHover3: ''
+gearCommand3: ''
+gearText4: '          ☠ - $helmettier'
+gearHover4: $helmet
+gearCommand4: ''
+gearText5: '          ▼ - $chestplatetier'
+gearHover5: $chestplate
+gearCommand5: ''
+gearText6: '          Π - $leggingstier'
+gearHover6: $leggings
+gearCommand6: ''
+gearText7: '          ╯╰ - $bootstier'
+gearHover7: $boots
+gearCommand7: ''
+gearText8: '{⚔ - $mainhandtier}    {⛨ - $offhandtier}'
+gearHover8: '{$mainhand}{$offhand}'
+gearCommand8: ''
+gearText9: ''
+gearHover9: ''
+gearCommand9: ''
+gearText10: '{Daño: $damage}    {Defensa: $armor}'
+gearHover10: '{Daño base infligido a Mobs Élite}{Reducción de daño de Mobs Élite}'
+gearCommand10: ''
+gearText11: 'Nivel de Amenaza: $threat'
+gearHover11: |
+  Esto determina el nivel de los
+  Mobs Élite que aparecen cerca de ti.
+  Toma en cuenta tu armadura, arma en mano,
+  y rango de gremio.
+gearCommand11: ''
+gearText12: ''
+gearHover12: ''
+gearCommand12: ''
+teleportText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+teleportHover0: ''
+teleportCommand0: ''
+teleportText1: '&2&lTeletransportes'
+teleportHover1: ''
+teleportCommand1: ''
+teleportText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+teleportHover2: ''
+teleportCommand2: ''
+teleportText3: Punto de Inicio
+teleportHover3: ¡Teletranspórtate al punto de inicio!
+teleportCommand3: /em spawntp
+teleportText4: §6§lCentro del Gremio
+teleportHover4: ¡Teletranspórtate al Centro del Gremio de Aventureros!
+teleportCommand4: /ag
+onTeleportsHover: ¡Haz clic para teletransportarte!
+commandsText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+commandsHover0: ''
+commandsCommand0: ''
+commandsText1: '&3&lComandos:'
+commandsHover1: ''
+commandsCommand1: ''
+commandsText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+commandsHover2: ''
+commandsCommand2: ''
+commandsText3: ''
+commandsHover3: ''
+commandsCommand3: ''
+commandsText4: '&5/ag'
+commandsHover4: |-
+  HAZ CLIC PARA USAR
+  El lugar donde puedes encontrar
+  NPCs que dan misiones, compran y
+  venden ítems, dan consejos y más.
+commandsCommand4: /ag
+commandsText5: ''
+commandsHover5: ''
+commandsCommand5: ''
+commandsText6: '&5/shareitem'
+commandsHover6: |-
+  HAZ CLIC PARA USAR
+  ¡Comparte el ítem que estás sosteniendo
+  en el chat!
+commandsCommand6: /shareitem
+commandsText7: ''
+commandsHover7: ''
+commandsCommand7: ''
+commandsText8: ''
+commandsHover8: ''
+commandsCommand8: ''
+commandsText9: ''
+commandsHover9: ''
+commandsCommand9: ''
+commandsText10: ''
+commandsHover10: ''
+commandsCommand10: ''
+commandsText11: ''
+commandsHover11: ''
+commandsCommand11: ''
+commandsText12: ''
+commandsHover12: ''
+commandsCommand12: ''
+questTrackerText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+questTrackerHover0: ''
+questTrackerCommand0: ''
+questTrackerText1: '&6&lMisiones:'
+questTrackerHover1: ¡Habla con NPCs para aceptar misiones!
+questTrackerCommand1: ''
+questTrackerText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+questTrackerHover2: ''
+questTrackerCommand2: ''
+onQuestTrackHover: ¡Haz clic para abandonar!
+bossTrackerText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+bossTrackerHover0: ''
+bossTrackerCommand0: ''
+bossTrackerText1: '&4&lSeguimiento de Jefes:'
+bossTrackerHover1: ¡Los grandes jefes se muestran aquí!
+bossTrackerCommand1: ''
+bossTrackerText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+bossTrackerHover2: ''
+bossTrackerCommand2: ''
+onBossTrackHover: ¡Haz clic para rastrear o dejar de rastrear!
+teleportChestMenuName: '&2Teletransportes de EliteMobs'
+bossTrackerChestMenuName: '&2Seguimiento de Jefes de EliteMobs'
+indexChestMenuName: '&2Índice de EliteMobs'
+indexHeaderItem:
+  material: PAPER
+  name: §5§l/ag §7- §6Centro de EliteMobs
+indexHeaderSlot: 4
+indexStatsItem:
+  material: MAP
+  name: §6Estadísticas
+indexStatsSlot: 10
+indexGearItem:
+  material: DIAMOND_SWORD
+  name: §6Equipo
+indexGearSlot: 12
+indexTeleportsItem:
+  material: END_PORTAL_FRAME
+  name: §6Teletransportes
+indexTeleportsSlot: 14
+indexCommandsItem:
+  material: JUKEBOX
+  name: §6Comandos
+indexCommandsSlot: 16
+indexQuestTrackingItem:
+  material: WRITABLE_BOOK
+  name: §6Seguimiento de Misiones
+indexQuestTrackingSlot: 20
+indexBossTrackingItem:
+  material: TARGET
+  name: §6Seguimiento de Jefes
+indexBossTrackingSlot: 24
+backItem:
+  material: BARRIER
+  name: §cAtrás
+gearChestMenuName: '&2Equipo de EliteMobs'
+gearDamageItem:
+  material: DIAMOND_SWORD
+  name: '§4Daño: $damage'
+gearDamageSlot: 23
+gearArmorItem:
+  material: SHIELD
+  name: '§2Defensa: $defense'
+gearArmorSlot: 24
+gearThreatItem:
+  material: TARGET
+  name: '§cNivel de Amenaza: $threat'
+gearThreatSlot: 25
+statsChestMenuName: '&2Estadísticas de EliteMobs'
+statsMoneyItem:
+  material: GOLD_INGOT
+  name: '§2Monedas Élite: $money'
+statsMoneySlot: 10
+statsGuildTierItem:
+  material: TARGET
+  name: '§6Rango de Gremio: $tier'
+statsGuildTierSlot: 11
+statsEliteKillsItem:
+  material: DIAMOND_SWORD
+  name: '§4Muertes Élite: §c$kills'
+statsEliteKillsSlot: 12
+statsMaxEliteLevelKilledItem:
+  material: GOLDEN_SWORD
+  name: '§4Nivel Máx. Matado: §c$maxKill'
+statsMaxEliteLevelKilledSlot: 13
+statsEliteDeathsItem:
+  material: TOTEM_OF_UNDYING
+  name: '§4Muertes por Élite: $deaths'
+statsEliteDeathsSlot: 14
+statsQuestsCompletedItem:
+  material: LECTERN
+  name: '§5Misiones Completadas: §d$questsCompleted'
+statsQuestsCompletedSlot: 15
+statsScoreItem:
+  material: ITEM_FRAME
+  name: '§3Puntuación: §b$score'
+statsScoreSlot: 16
+commandsChestMenuName: '&2Comandos de EliteMobs'
+commandsAGItem:
+  material: END_PORTAL_FRAME
+  name: §5/ag
+commandsAGSlot: 11
+commandsShareItemItem:
+  material: PAPER
+  name: §5/shareitem
+commandsShareItemSlot: 15

@@ -1,0 +1,50 @@
+isEnabled: true
+shopName: '[EM] Tienda de Venta'
+infoButton:
+  material: PLAYER_HEAD
+  name: §4§lEliteMobs §cpor §4§lFroxy
+  lore:
+  - §8¡Apoya a Droiid en Twitch!
+  - §4¡Advertencia!
+  - §cSolo puedes vender ítems élite
+  - §cespeciales de EliteMobs en esta
+  - §ctienda. Estos deben tener
+  - §cun valor en su descripción.
+infoButtonSlot: 4
+sellSlots:
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 34
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+cancelButton:
+  material: BARRIER
+  name: §4Cancelar
+  lore:
+  - §c¡Cancelar la venta!
+  customModelID: 31173
+cancelButtonSlot: 27
+confirmButton:
+  material: EMERALD
+  name: §2Confirmar Venta
+  lore:
+  - §aVender ítem por
+  - §a$currency_amount $currency_name
+  customModelID: 31173
+confirmSaleSlot: 35

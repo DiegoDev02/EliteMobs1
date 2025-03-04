@@ -1,0 +1,103 @@
+isEnabled: true
+questTierSelectorMenuTitle: '[EM] Selección de Rango de Gremio'
+lowTierWarning: '&c¡Los élites no pueden soltar mejor botín!'
+normalTierWarning: '&a¡Los élites pueden soltar mejor botín!'
+unlockedButtons:
+  material: GRAY_STAINED_GLASS_PANE
+  name: $rankName
+  lore:
+  - §f§m-------------------------------
+  - §a¡Este rango está desbloqueado!
+  - §fPuedes seleccionarlo.
+  - §f§m-------------------------------
+  - $lootTier
+  - $currencyBonusMessage
+  - $maxHealthIncrease
+  - $chanceToCrit
+  - $chanceToDodge
+  customModelID: 31173
+lockedButtons:
+  material: RED_STAINED_GLASS_PANE
+  name: $rankName
+  lore:
+  - §f§m-------------------------------
+  - §a¡Este rango está bloqueado!
+  - §c¡Necesitas el rango $previousRank primero!
+  - §f§m-------------------------------
+  - $lootTier
+  - $currencyBonusMessage
+  - $maxHealthIncrease
+  - $chanceToCrit
+  - $chanceToDodge
+  customModelID: 31173
+currentButtons:
+  material: GREEN_STAINED_GLASS_PANE
+  name: $rankName
+  lore:
+  - §f§m-------------------------------
+  - §a¡Este es tu rango actual!
+  - §f§m-------------------------------
+  - $lootTier
+  - $currencyBonusMessage
+  - $maxHealthIncrease
+  - $chanceToCrit
+  - $chanceToDodge
+  customModelID: 31173
+nextButtons:
+  material: YELLOW_STAINED_GLASS_PANE
+  name: Prestigio $prestigeNumber
+  lore:
+  - §6Este es el próximo rango que puedes desbloquear
+  - §a¡Selecciónalo cuando estés listo!
+  - §6Cuesta $price §6$currencyName
+  - §fTienes §a$currentCurrency $currencyName
+  - §f§m-------------------------------
+  - $lootTier
+  - $currencyBonusMessage
+  - $maxHealthIncrease
+  - $chanceToCrit
+  - $chanceToDodge
+  customModelID: 31173
+prestigeLockedButtons:
+  material: RED_STAINED_GLASS
+  name: Prestigio $rank
+  lore:
+  - §f§m-------------------------------
+  - §4¡Debes desbloquear todos los rangos de gremio primero!
+  - §f§m-------------------------------
+  customModelID: 31173
+prestigeNextUnlockButtons:
+  material: GOLD_BLOCK
+  name: Prestigio $rank
+  lore:
+  - §f§m-------------------------------
+  - §2¡El desbloqueo de prestigio está listo!
+  - §6Cuesta $price §6$currencyName
+  - §cComprar prestigio reiniciará los rangos de gremio
+  - §ay te permitirá desbloquear: null
+  - §a- Acceso a rangos de gremio más altos
+  - §a- Acceso a botín de nivel más alto
+  - §a- Más monedas por muertes y misiones
+  - §a- Mayor salud máxima
+  - §a- Probabilidad base de crítico
+  - §a- Probabilidad base de esquivar
+  - §4Advertencia: ¡esto reinicia tus ítems
+  - §4y moneda actuales de EliteMobs!
+  - §f§m-------------------------------
+  customModelID: 31173
+notEnoughCurrencyMessages: '&7[EliteMobs] &4¡No tienes suficientes Monedas Élite ($neededAmount
+  $currencyName)! ¡Vende botín de Mobs Élite en [/em shop]! Tienes $currentAmount
+  $currencyName.'
+unlockMessages: "&7[EliteMobs] &a¡Has desbloqueado el rango $rankName &apor $price\
+  \ $currencyName! \n&6¡Feliz cacería!"
+questCompleteBroadcastMessages: '&7[EliteMobs] &a$player &aha alcanzado el rango de
+  gremio $rankName!'
+failedMessages: '&7[EliteMobs] &c¡Necesitas desbloquear otros rangos primero!'
+spawnRateModifierMessages: '&fModificador de tasa de aparición de Mobs Élite: &c$modifier%'
+lootModifierMessages: '&fModificador de botín de Mobs Élite: &a$modifier%'
+difficultyModifierMessages: '&fModificador de dificultad de Mobs Élite: &c$modifier%'
+lootTierMessages: '&2¡Los élites pueden soltar botín hasta el nivel $tier!'
+currencyBonusMessages: '&a¡$amountx monedas por botines y misiones!'
+healthBonusMessages: '&cAñade $amount ❤ de salud máxima'
+critBonusMessages: '&eAñade $amount% de probabilidad de crítico'
+dodgeBonusMessages: '&8Añade $amount% de probabilidad de esquivar'

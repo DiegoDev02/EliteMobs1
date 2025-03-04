@@ -1,0 +1,32 @@
+isEnabled: true
+menuName: '[EM] Selección de Misiones'
+validTierButton:
+  material: GREEN_STAINED_GLASS_PANE
+  name: §2¡Acepta una misión de $rank!
+  lore:
+  - §aAcepta una misión de $rank §ay
+  - §aobtén recompensas especiales.
+  customModelID: 31173
+cancelQuestMessage1: '&c&l&m&o---------------------------------------------&c¡Solo
+  puedes tener una misión a la vez! ¡Cancelar tu misión actual reiniciará tu progreso!'
+cancelQuestMessage2: '&2[¡Haz clic aquí para cancelar la misión actual!]'
+cancelQuestMessage3: '&7Puedes ver el estado de tu misión con el comando &a/em quest
+  status&c&l&m&o---------------------------------------------'
+killObjectiveButton:
+  material: YELLOW_STAINED_GLASS_PANE
+  name: §2Mata $objectiveAmount $objectiveName
+  lore:
+  - §aMata $objectiveAmount $objectiveName §amobs.
+  - '§fProgreso: §a$currentAmount §f/§c $objectiveAmount'
+  - '§aRecompensa: §e $rewardAmount'
+  customModelID: 31173
+questCancelMessage: '&7[EliteMobs] &c¡Tu misión actual ha sido cancelada!'
+questStartTitle: ¡Has aceptado una misión!
+questStartSubtitle: Mata $objectiveAmount $objectiveName
+questCompleteTitle: ¡Misión completada!
+questCompleteSubtitle: Has matado $objectiveAmount $objectiveName
+bossBarObjective: Mata $objectiveAmount $objectiveName
+questRewardMessage: '&7[EM] &a¡Misión completada! &6Tu recompensa es &2$reward $currencyName'
+questCompleteBroadcastMessage: '&7[EM] ¡$player &2ha completado una misión de $rank!'
+questStartBroadcastMessage: '&7[EM] ¡$player &2ha aceptado una misión de $rank!'
+questStatusMessage: '&7[EM] &aHas matado &a$currentAmount &f/ &c$objectiveAmount &a$objectiveName'

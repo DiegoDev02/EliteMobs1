@@ -1,0 +1,10 @@
+isEnabled: true
+menuName: ''
+playerItem:
+  material: DIAMOND_SWORD
+  name: §4¡Desafía la arena!
+playerItemSlot: 6
+spectatorItem:
+  material: SPYGLASS
+  name: §a¡Espectar!
+spectatorItemSlot: 2

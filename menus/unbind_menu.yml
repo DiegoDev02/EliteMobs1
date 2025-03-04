@@ -1,0 +1,47 @@
+isEnabled: true
+shopName: '[EM] ¡Menú de Desvinculación!'
+infoButton:
+  material: PLAYER_HEAD
+  name: §4§lEliteMobs §cpor §4§lMagmaGuy
+  lore:
+  - §8¡Apoya los plugins que disfrutas!
+  - §a¡Usa un §5Pergamino de Desvinculación §apara quitar el Soulbind de un ítem!
+infoButtonSlot: 4
+eliteItemInputInformationSlot: 20
+eliteItemInputSlot: 29
+eliteItemInputInformationButton:
+  material: GREEN_BANNER
+  name: §2Ranuras de Entrada para Ítem Élite
+  lore:
+  - §a¡Esta ranura es para tu ítem élite!
+  customModelID: 31173
+unbindScrollInputInformationSlot: 22
+unbindScrollInputSlot: 31
+unbindScrollInputInformationButton:
+  material: GREEN_BANNER
+  name: §5Pergamino de Desvinculación §aRanuras de Entrada
+  lore:
+  - §a¡Esta ranura es para tu §9Pergamino de Desvinculación§a!
+  customModelID: 31173
+informationOutputButtonSlot: 24
+outputSlot: 33
+cancelButton:
+  material: BARRIER
+  name: §4Cancelar
+  lore:
+  - §c¡Cancelar la desvinculación!
+  customModelID: 31173
+outputInformationButton:
+  material: RED_BANNER
+  name: §2Ranura de Salida para Ítem Desvinculado
+  lore:
+  - §a¡Esta ranura muestra el resultado de tu desvinculación!
+  customModelID: 31173
+cancelButtonSlot: 27
+confirmButton:
+  material: EMERALD
+  name: §2¡Confirmar!
+  lore:
+  - §a¡Desvincular ítem!
+  customModelID: 31175
+confirmUnbindSlot: 35

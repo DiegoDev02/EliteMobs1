@@ -1,0 +1,3 @@
+message1: '&7[EM] El nivel de combate de $player es $tier'
+message2: '&7[EM] El bono de rango de gremio de $player es $tier'
+message3: '&7[EM] &aEl nivel total de amenaza de $player es $tier'
